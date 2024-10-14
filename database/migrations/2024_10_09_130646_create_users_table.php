@@ -13,12 +13,17 @@ return new class extends Migration
     {
         Schema::create('users', function (Blueprint $table) {
             $table->id();
-            $table->string('name');
-            $table->string('email')->unique();
-            $table->timestamp('email_verified_at')->nullable();
-            $table->string('password');
-            $table->rememberToken();
-            $table->timestamps();
+            $table->string('name'); // Nama user
+            $table->string('email')->unique(); // Email unik
+            $table->timestamp('email_verified_at')->nullable(); // Email verifikasi
+            $table->string('password'); // Password
+            $table->string('usertype')->default('user'); // User type, default 'user'
+            $table->string('no_hp')->nullable(); // Nomor handphone
+            $table->string('cv')->nullable(); // Path file CV
+            $table->string('alamat')->nullable(); // Alamat user
+            $table->date('tanggal_lahir')->nullable(); // Tanggal lahir user
+            $table->rememberToken(); // Token remember me
+            $table->timestamps(); // Created at dan Updated at
         });
 
         Schema::create('password_reset_tokens', function (Blueprint $table) {
