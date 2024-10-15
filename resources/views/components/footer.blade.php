@@ -2,7 +2,7 @@
     <div class="flex flex-row">
         <div class="flex flex-col gap-2 justify-center w-[14%] w-[11%]">
             <div class="flex items-center w-full gap-4">
-                <img src="{{ asset('image/logoTHC.png') }}" alt="logoCompany">
+                <img src="{{ asset('images/logoTHC.png') }}" alt="logoCompany">
             </div>
             <div class="grid grid-cols-3 gap-6 w-fit p-4"><a href="#">
                 <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" class="fill-current">
