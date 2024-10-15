@@ -1,6 +1,6 @@
 <div class="flex flex-col w-full h-fit bg-[#243D92] text-[#f9f9f9] px-48 py-4 absolute bottom-0 w-full rounded-tl-[10px] rounded-tr-[10px]"">
     <div class="flex flex-row">
-        <div class="flex flex-col gap-2 justify-center w-[20%] w-[12%]">
+        <div class="flex flex-col gap-2 justify-center w-[14%] w-[11%]">
             <div class="flex items-center w-full gap-4">
                 <img src="{{ asset('image/logoTHC.png') }}" alt="logoCompany">
             </div>
@@ -19,9 +19,6 @@
 
             </div>
         </div>
-
-
-
 
         
         <div class="flex flex-row w-[86%] justify-end gap-28 text-nowrap">
