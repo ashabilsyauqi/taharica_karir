@@ -1,0 +1,20 @@
+
+.slider {
+    display: flex;
+    overflow-x: auto;
+    scroll-snap-type: x mandatory;
+    scrollbar-width: none;
+    -ms-overflow-style: none;
+}
+.slider::-webkit-scrollbar {
+    display: none;
+}
+.slide {
+    min-width: 20rem;
+    scroll-snap-align: start;
+    flex-shrink: 0;
+}
+
+.slider.smooth-scroll {
+    scroll-behavior: smooth;
+}
