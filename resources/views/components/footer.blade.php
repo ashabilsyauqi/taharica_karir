@@ -1,4 +1,4 @@
-<div class="flex flex-col w-full h-fit bg-[#243D92] text-[#f9f9f9] px-48 py-4 absolute bottom-0 w-full rounded-tl-[10px] rounded-tr-[10px]"">
+<div class="flex flex-col w-full h-fit bg-[#243D92] text-[#f9f9f9] px-48 py-4 rounded-tl-[10px] rounded-tr-[10px]"">
     <div class="flex flex-row">
         <div class="flex flex-col gap-2 justify-center w-[14%] w-[11%]">
             <div class="flex items-center w-full gap-4">
